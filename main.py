@@ -609,3 +609,10 @@ def get_device_history():
         "total": len(history_data),
         "history": history_data
     }
+
+
+
+# replit setting
+import uvicorn
+if __name__ == "__main__" : 
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
